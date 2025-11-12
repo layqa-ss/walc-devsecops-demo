@@ -6,6 +6,7 @@ const port = 3000;
 const API_KEY = "dj-walc-2023-super-secreto-y-muy-largo-para-ser-encontrado";
 
 
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(port, () => {
